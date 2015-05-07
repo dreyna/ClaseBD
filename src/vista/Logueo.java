@@ -25,6 +25,7 @@ private UsuarioInterface ui = new UsuarioDAO();
      */
     public Logueo() {
         initComponents();
+         
         setLocationRelativeTo(null);
         setIconImage(new ImageIcon(getClass().getResource("/imagenes/settings.png")).getImage());
     }
